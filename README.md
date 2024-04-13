@@ -1,8 +1,8 @@
 # Introduction-to-AI-3
 # Input formating
 
-#X 1                ; Maximum x coordinate
-#Y 1                ; Maximum y coordinate
+#X 1                
+#Y 1                
 #B 0 0 1 0          ; Edge from (0,0) to (1,0) is always blocked
 #F 1 0 1 1 0.8      ; Edge from (1,0) to (1,1) is fragile, with p = 1-qi = 0.8
 #F 0 0 0 1 0.8
