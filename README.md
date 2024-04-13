@@ -1,13 +1,13 @@
 # Introduction-to-AI-3
 הוראות הפעלה: The input test should be in the following format:
 
-#X 1                ; Maximum x coordinate
-#Y 1                ; Maximum y coordinate
-#B 0 0 1 0          ; Edge from (0,0) to (1,0) is always blocked
-#F 1 0 1 1 0.8      ; Edge from (1,0) to (1,1) is fragile, with p = 1-qi = 0.8
-#F 0 0 0 1 0.8
-#V 1 0 F 0.2    ; Vertex (1,0) probability of package given low demand season 0.2
-#V 1 1 F 0.3    ; Vertex (1,1) probability package given low demand  0.3
+#X 1                ; Maximum x coordinate\n
+#Y 1                ; Maximum y coordinate\n
+#B 0 0 1 0          ; Edge from (0,0) to (1,0) is always blocked\n
+#F 1 0 1 1 0.8      ; Edge from (1,0) to (1,1) is fragile, with p = 1-qi = 0.8\n
+#F 0 0 0 1 0.8\n
+#V 1 0 F 0.2    ; Vertex (1,0) probability of package given low demand season 0.2\n
+#V 1 1 F 0.3    ; Vertex (1,1) probability package given low demand  0.3\n
 #L 0.1        ; Global leakage probability 0.1
 #S 0.1 0.4 0.5 ; Prior distribution over season: 0.1 for low, 0.4 for medium, 0.5 for high
 
