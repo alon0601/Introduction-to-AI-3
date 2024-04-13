@@ -1,9 +1,10 @@
 # Introduction-to-AI-3
 הוראות הפעלה: The input test should be in the following format:
 
-#X 1                ; Maximum x coordinate\n
-#Y 1                ; Maximum y coordinate\n
-#B 0 0 1 0          ; Edge from (0,0) to (1,0) is always blocked\n
+#X 1                ; Maximum x coordinate
+
+#Y 1                ; Maximum y coordinate
+#B 0 0 1 0          ; Edge from (0,0) to (1,0) is always blocked
 #F 1 0 1 1 0.8      ; Edge from (1,0) to (1,1) is fragile, with p = 1-qi = 0.8\n
 #F 0 0 0 1 0.8\n
 #V 1 0 F 0.2    ; Vertex (1,0) probability of package given low demand season 0.2\n
