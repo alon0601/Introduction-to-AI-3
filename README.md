@@ -1,5 +1,5 @@
 # Introduction-to-AI-3
-הוראות הפעלה: The input test should be in the following format:
+# Input formating
 
 #X 1                ; Maximum x coordinate
 #Y 1                ; Maximum y coordinate
